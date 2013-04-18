@@ -9,8 +9,8 @@ Les fonctions disponibles sont notamment :
 * String getLine(char* nomFichierIn, int lineNumberIn, boolean debug) : renvoie vers le port série une ligne à partir de son numéro
 * int getFileSize(char* nomFichierIn, boolean debug) : renvoie vers le port série la taille d'un fichier
 * void readSerial(char* nomFichierIn, boolean debug) : lit et affiche sur le port série le contenu d'un fichier
-* void writeFile(char* nomFichierIn, String toWriteIn, boolean debug) : ajoute une ligne + saut de ligne à la fin du fichier
-* void createFile(char* nomFichierIn, boolean debug) : crée un fichier 
+* void writeFile(char* nomFichierIn, String toWriteIn, boolean debug) : ajoute une ligne + saut de ligne à la fin du fichier et envoie messages sur le port série
+* void createFile(char* nomFichierIn, boolean debug) : crée un fichier et envoie messages sur le port série
 
 Cette librairie est utilisée notamment dans mon projet "The Open Datalogger Project" : 
 https://github.com/sensor56/TheOpenDataloggerProject 
